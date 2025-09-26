@@ -23,7 +23,7 @@ WEATHER_API_KEY = "50680f35bd3743853676d4fb3ddadc60"
 CITY = "Kathmandu"
 SENDER_EMAIL = "anjalisimkhada5@gmail.com'"
 RECEIVER_EMAIL = "anjali.simkhada@westcliff.edu"
-EMAIL_PASSWORD = "nvof bers oduz kdqd"  
+EMAIL_PASSWORD = " "  
 
 # Part 1: Scrape Nepse Stock Data
 def get_nepse_data():
@@ -177,4 +177,5 @@ def main():
     send_email(weather_info, quote, author)
 
 if __name__ == "__main__":
+
     main()
